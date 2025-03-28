@@ -57,7 +57,7 @@ nvidia-smi
 - Download the latest **cuDNN** version.
 - Choose **Local Windows Installer (ZIP)**.
 - [Download cuDNN](https://developer.nvidia.com/rdp/cudnn-archive)
-
+- Open it and install with default settings.
 ---
 
 ## Step 6: Copy & Paste cuDNN Files  
