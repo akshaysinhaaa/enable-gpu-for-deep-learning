@@ -15,6 +15,7 @@ nvidia-smi
 - Copy and paste your GPU name into the search bar on NVIDIA's driver download page.
 - Download the latest driver for your GPU:
   - [NVIDIA GPU Driver Download](https://www.nvidia.com/Download/index.aspx)
+- Open it and install with default settings. 
 
 ---
 
@@ -83,20 +84,23 @@ nvidia-smi
 - Go to [PyTorch Official Site](https://pytorch.org/get-started/locally/)
 - Select the **stable** version.
 - Choose the correct **CUDA** version.
-- Copy the given pip command and paste it into your VS Code terminal:
+- Copy the given pip command from website and paste it into your VS Code terminal:
+- It looks like this: (It is for CUDA 12.6)
 
 ```sh
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu12
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ### **Using Git Bash in VS Code:**
+1. Open Anaconda Navigator and choose and open **VS Code**
 1. Open **VS Code Terminal**
 2. Change the terminal to **Git Bash**
 3. Paste and execute the copied command
 
 ---
 
-## Step 8: Verify GPU Installation  
+## Step 8: Verify GPU Installation 
+Make a new **.ipynb** file
 Run the following script to check if your GPU is correctly set up:
 
 ```python
